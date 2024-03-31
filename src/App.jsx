@@ -3,6 +3,7 @@ import HomeDasu from './pages/HomeDasu';
 import SigninDasu from './pages/SigninDasu';
 import ProfileDasu from './pages/ProfileDasu';
 import SignUpDasu from './pages/SignUpDasu';
+import AboutDasu from './pages/AboutDasu';
 import HeaderDasu from './components/HeaderDasu';
 
 export default function App() {
@@ -14,6 +15,7 @@ export default function App() {
       <Route path="/Sign-in-dasu" element={<SigninDasu/>}/>
       <Route path="/Profile-dasu" element={<ProfileDasu/>}/>
       <Route path="/Sign-up-dasu" element={<SignUpDasu/>}/>
+      <Route path="/About-dasu" element={<AboutDasu/>}/>
     </Routes>
   </BrowserRouter>
   );
